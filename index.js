@@ -11,8 +11,7 @@ const dbname = 'aeromodelismo'
 const uri = `mongodb+srv://${user}:${password}@cluster0.n1h1nz9.mongodb.net/${dbname}?retryWrites=true&w=majority`;
 
 
-mongoose.connect(uri,
-    { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(uri)
 .then(() => console.log('Conectado CORRECTAMENTE a mongodb, FELICIDADES!!!!'))
     .catch(e => console.log('error de conexión', e))
 
