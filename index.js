@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 
 //Conexion a base de datos
-const user = 'usuario_fict';
+const user = 'usuarioGeneral';
 const password = 'contrasenya';
 const dbname = 'aeromodelismo'
 const uri = `mongodb+srv://${user}:${password}@cluster0.n1h1nz9.mongodb.net/${dbname}?retryWrites=true&w=majority`;
